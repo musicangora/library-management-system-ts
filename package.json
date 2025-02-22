@@ -2,7 +2,8 @@
   "name": "library",
   "type": "module",
   "scripts": {
-    "dev server": "tsx watch src/index.ts"
+    "dev server": "tsx watch src/index.ts",
+    "prepare": "husky"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.8",
@@ -11,6 +12,11 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/node": "^20.11.17",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "tsx": "^4.7.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "biome check --write"
   }
 }
