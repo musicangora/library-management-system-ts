@@ -1,1 +1,1 @@
-echo "husky!"
+npx lint-staged
