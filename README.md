@@ -1,2 +1,8 @@
-# library-management-system-ts
-Typescriptで図書管理システムを作ってみます
+```
+npm install
+npm run dev
+```
+
+```
+open http://localhost:3000
+```
