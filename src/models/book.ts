@@ -1,5 +1,3 @@
-// src/models/Book.ts
-
 export interface Book {
   /** 主キー（必須項目）*/
   id: number;
